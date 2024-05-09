@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(211, 182, 145);
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: right;
+}
+
+.logo-text{
+    display:flex ;
+    background-color:rgb(211, 182, 145);
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+.item{
+width: 300px;
+mix-blend-mode: multiply;
+margin-left: 80px;
+}
+
+.btn btn-primary{
+    background-color: brown !important;
+}
+
+
+
+.logo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.logo-text h1,
+.logo-text p,
+.logo-text button {
+    text-align: center;
+}
+
+.logo-text img {
+    max-width: 100%;
+    height: auto;
+}
